@@ -42,7 +42,7 @@
 
 	_characterDetailJson = json;
 
-	//_testGuy = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
+	_testGuy = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
 }
 
 - (void)tearDown {
