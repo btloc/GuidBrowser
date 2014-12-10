@@ -20,7 +20,7 @@
 	// 1
 	NSDictionary *_characterDetailJson;
 
-	Character *_testGuy;
+	//Character *_testGuy;
 }
 
 // 2
@@ -47,7 +47,7 @@
 	// 6
 	_characterDetailJson = nil;
 
-	_testGuy = nil;
+	//_testGuy = nil;
 }
 
 - (void)testExample {
