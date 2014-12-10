@@ -49,7 +49,7 @@
 	// 6
 	_characterDetailJson = nil;
 
-	//_testGuy = nil;
+	_testGuy = nil;
 }
 
 - (void)testExample {
