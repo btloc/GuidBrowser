@@ -42,14 +42,14 @@
 
 	_characterDetailJson = json;
 
-	//_testGuy = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
+	_testGuy = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
 }
 
 - (void)tearDown {
 	// 6
-	_characterDetailJson = nil;
+	//_characterDetailJson = nil;
 
-	//_testGuy = nil;
+	_testGuy = nil;
 }
 
 - (void)testExample {
